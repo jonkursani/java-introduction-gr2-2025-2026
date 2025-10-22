@@ -1,7 +1,7 @@
 package java_02;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Single line koment
         /*
             Multi
@@ -54,7 +54,7 @@ public class Main {
         System.out.printf("Hello, %S%n", "JOhn");
 
         // Formatimi i karaktereve
-        System.out.printf("Laptop price is 250%s%n", "$"); // tu perdor string
+        System.out.printf("Laptop price is 250%s%n", "$USD"); // tu perdor string
         System.out.printf("Laptop price is 250%c%n", '$'); // tu perdor char
 
         // Vendosja e tekstit
@@ -64,13 +64,8 @@ public class Main {
         // Kombinimi i formatimit
         System.out.printf("%s price is %.2f%c.%n", "Phone", 550.30, '$');
 
-
-
-
-
-
-
-
-
+        // Vlerat true false, e vertete e pavervete boolean values
+        System.out.printf("A jam student: %b%n", true);
+        System.out.printf("A jam student: %B%n", false); // FALSE
     }
 }
